@@ -1,0 +1,17 @@
+{
+  "name": "mp-productivity",
+  "description": "Matt Pocock's productivity skills: grilling sessions, handoffs, caveman mode, and skill authoring.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev/"
+  },
+  "repository": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "skills": [
+    "./caveman",
+    "./grill-me",
+    "./handoff",
+    "./write-a-skill"
+  ]
+}

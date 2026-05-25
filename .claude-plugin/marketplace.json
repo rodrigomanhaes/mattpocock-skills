@@ -1,0 +1,27 @@
+{
+  "name": "mattpocock-skills",
+  "owner": {
+    "name": "Rodrigo Manhães",
+    "email": "rodrigo@kobana.com.br"
+  },
+  "metadata": {
+    "description": "Matt Pocock's agent skills, repackaged as per-bucket Claude Code plugins for selective installation."
+  },
+  "plugins": [
+    {
+      "name": "mp-engineering",
+      "source": "./skills/engineering",
+      "description": "Engineering skills: TDD, diagnosis, grilling, architecture, prototyping, and more."
+    },
+    {
+      "name": "mp-productivity",
+      "source": "./skills/productivity",
+      "description": "Productivity skills: grilling sessions, handoffs, caveman mode, and skill authoring."
+    },
+    {
+      "name": "mp-misc",
+      "source": "./skills/misc",
+      "description": "Miscellaneous skills: git guardrails, pre-commit hooks, shoehorn migration, and exercise scaffolding."
+    }
+  ]
+}

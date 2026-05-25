@@ -1,0 +1,17 @@
+{
+  "name": "mp-misc",
+  "description": "Matt Pocock's miscellaneous skills: git guardrails, pre-commit hooks, shoehorn migration, and exercise scaffolding.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Matt Pocock",
+    "url": "https://www.aihero.dev/"
+  },
+  "repository": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "skills": [
+    "./git-guardrails-claude-code",
+    "./migrate-to-shoehorn",
+    "./scaffold-exercises",
+    "./setup-pre-commit"
+  ]
+}
